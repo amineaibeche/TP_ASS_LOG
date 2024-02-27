@@ -1,3 +1,5 @@
+package linecoverageTest;
+
 import lineCoverageTest.Palindrome;
 import lineCoverageTest.PalindromeCorrection;
 
