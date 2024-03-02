@@ -1,4 +1,4 @@
-package lineCoverageTest;
+package EXO1TP1;
 
 public class PalindromeCorrection {
     public static boolean isPalindrome(String s) {

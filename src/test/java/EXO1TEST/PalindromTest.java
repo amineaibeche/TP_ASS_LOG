@@ -1,13 +1,12 @@
-package linecoverageTest;
+package EXO1TEST;
 
-import lineCoverageTest.Palindrome;
-import lineCoverageTest.PalindromeCorrection;
+import EXO1TP1.Palindrome;
+import EXO1TP1.PalindromeCorrection;
 
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.Assert;
 
 public class PalindromTest {
     Palindrome s;
