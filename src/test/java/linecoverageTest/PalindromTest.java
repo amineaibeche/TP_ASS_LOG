@@ -19,7 +19,7 @@ public class PalindromTest {
 
     @Test
     public void testisPalindrome() {
-        Assertions.assertEquals(true, PalindromeCorrection.isPalindrome("121"));
+        Assertions.assertEquals(true, Palindrome.isPalindrome(null));
     }
 
     @Test
