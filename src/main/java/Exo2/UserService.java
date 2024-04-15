@@ -7,9 +7,12 @@ public class UserService {
     public UserService(UtilisateurApi utilisateurApi) {
         this.utilisateurApi = utilisateurApi;
     }
-    public boolean creerUtilisateur(Utilisateur utilisateur) throws
-            ServiceException {
+    public boolean creerUtilisateur(Utilisateur utilisateur) throws ServiceException {
         utilisateurApi.creerUtilisateur(utilisateur);
         return true ;
+    }
+
+    public int getID() throws ServiceException{
+        return utilisateurApi.getID();
     }
 }
