@@ -41,8 +41,8 @@ public class UserServiceTest {
 
         Utilisateur user2 = new Utilisateur("amine" , "aibeche" ,"zibeche@gmail.com",123);
 
-        boolean result2 = service.creerUtilisateur(null);
-        verify(service , never()).creerUtilisateur(null);
+        boolean result2 = service.creerUtilisateur(user2);
+        verify(service , never() ).creerUtilisateur(user2);
         // si le parametre never n'est pas ajouter l'exception va se lever par contre ,
         // si le parametre never est ajouter , l'exception ne va pas lever
 
